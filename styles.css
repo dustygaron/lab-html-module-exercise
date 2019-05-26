@@ -1,0 +1,242 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+nav {
+  background-color: #c12127;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 15px;
+  height: 37px;
+}
+
+nav a {
+  color: #ffffffcc;
+  text-decoration: none;
+}
+
+.top-left {
+  margin-left: 20px;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  margin-top: -25px;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 16px;
+}
+
+li {
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: 400;
+}
+
+/*==========
+ HEADER 
+ ==========*/
+header {
+  background: url("images/hero-cityscape.svg");
+  background-size: cover;
+  color: white;
+  min-height: 443px;
+  position: relative;
+  padding: 10px;
+}
+
+#header-row * {
+  display: inline-block;
+  vertical-align: middle;
+  /* padding: 10px; */
+}
+
+#logo {
+  max-width: 125px;
+  margin-left: 10px;
+}
+
+header form input {
+  background-color: rgb(31, 82, 111);
+  border: 1px solid #777;
+  padding: 10px;
+  width: 750px;
+  margin-left: 20px;
+}
+
+header form button {
+  border-radius: 0;
+  background-color: transparent;
+  border: 1px solid #777;
+  padding: 0;
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+}
+
+header ul {
+  position: absolute;
+  top: -5px;
+  right: 20px;
+}
+
+#bear-logo {
+  width: 30px;
+}
+
+header .text {
+  width: 560px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+header p,
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header button {
+  background-color: #f09233;
+}
+
+/*==========
+ SECTION 1 
+ ==========*/
+#section1 {
+  background-color: rgb(39, 53, 71);
+  color: white;
+  padding: 60px;
+  min-height: 350px;
+  position: relative;
+}
+
+#section1 img {
+  float: left;
+  height: 300px;
+  margin-left: 20px;
+}
+
+#section1 div {
+  position: absolute;
+  width: 500px;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+}
+
+#section1 ul {
+  margin-left: -20px;
+}
+
+#section1 button {
+  background-color: rgb(203, 56, 55);
+  border-radius: 50px;
+  color: white;
+  font-weight: 400;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+#section1 li {
+  line-height: 34px;
+}
+
+#section1 a {
+  text-decoration: none;
+  color: white;
+  font-weight: 00;
+}
+
+/*==========
+ SECTION 2 
+ ==========*/
+#section2 {
+  height: 400px;
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  position: relative;
+  color: white;
+  padding: 60px 0;
+}
+
+#section2 div {
+  width: 400px;
+  position: absolute;
+  top: 20%;
+  left: 100px;
+}
+
+#section2 button {
+  background-color: rgb(49, 68, 88);
+  color: white;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+/*==========
+ SECTION 3 
+ ==========*/
+#section3 {
+  text-align: center;
+}
+
+#section3 .text {
+  padding: 20px;
+}
+
+#section3 h2 {
+  color: Heading - rgb(83, 88, 98);
+  line-height: 12px;
+}
+
+#section3 a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+
+#boxes div {
+  float: left;
+  width: 33%;
+  height: 300px;
+  margin-top: 33px;
+}
+
+#boxes p {
+  color: rgb(135, 145, 156);
+  padding: 0 40px;
+}
